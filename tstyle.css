@@ -55,9 +55,15 @@ figure.snip1390 blockquote {
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
-  text-align: left;
+  text-align: center;
   position: relative;
 }
+
+.qunder{
+  border: 1px dotted black;
+  margin: 10px auto;
+}
+
 figure.snip1390 blockquote:before {
   font-family: "FontAwesome";
   content: "\201C";
@@ -84,6 +90,8 @@ figure.snip1390 .profile {
   flex-flow: wrap;
   margin: 20px;
   height: 100%;
+  padding-top: 30px;
+  gap: 2em;
 }
 .testimonials {
   padding: 40px 0;
