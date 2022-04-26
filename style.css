@@ -2258,6 +2258,10 @@ ul.tabs-nav .tab-nav.active {
   text-align: center;
 }
 
+.col-12.col-md-6.col-lg-3.mt-5.mt-md-0 {
+  margin-left: auto;
+}
+
 /* # Subscribe --------------------------------*/
 .subscribe-form {
   margin-top: 50px;
