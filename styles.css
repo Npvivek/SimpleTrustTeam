@@ -44,11 +44,11 @@ h3 {
     -moz-transition: all 0.3s ease-in;
 }
 
-.container {
+/* .container {
 
   padding: 0 16px;
   margin: auto;
-}
+} */
 
 #team .card:hover {
     background: #BB9981;
