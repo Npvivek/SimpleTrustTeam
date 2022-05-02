@@ -289,7 +289,7 @@ a:active {
 
 .site-navigation ul li a:hover,
 .site-navigation ul li.current-menu-item a {
-  border-bottom: 3px solid #4169e1;
+  /* border-bottom: 3px solid #4169e1; */
   color: #4169e1;
 }
 
