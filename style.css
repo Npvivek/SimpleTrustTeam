@@ -70,7 +70,7 @@ a:active {
   margin-right: 10px;
 }
 
-.top-header-bar .container  a i {
+.top-header-bar .container a i {
   padding: 9px;
   margin-left: 10px;
   color: black;
@@ -82,7 +82,6 @@ a:active {
   /* display: flex; */
   padding: 15px;
   /* padding-right: 100px; */
-  ;
   /* padding-right: 12rem; */
   /* background-color: #00506b; */
   gap: 5px;
@@ -2296,17 +2295,28 @@ ul.tabs-nav .tab-nav.active {
   width: 100%;
   height: 100%;
 }
+@media (min-width: 994px) {
+  .foot-logo img {
+    width: 120%;
+    height: 100%;
+    margin-left: -26%;
+  }
 
-.footer-bar {
-  padding: 30px 0;
-  font-size: 12px;
-  color: #7b7b7b;
-  background: #131212;
-  text-align: center;
-}
+  .footer-bar {
+    padding: 30px 0;
+    font-size: 12px;
+    color: #7b7b7b;
+    background: #131212;
+    text-align: center;
+  }
 
-.col-12.col-md-6.col-lg-3.mt-5.mt-md-0 {
-  margin-left: auto;
+  .col-12.col-md-6.col-lg-3.mt-5.mt-md-0 {
+    margin-left: auto;
+  }
+
+  .footer-bar .container .last {
+    flex-flow: column wrap;
+  }
 }
 
 /* # Subscribe --------------------------------*/
