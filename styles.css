@@ -182,7 +182,7 @@ hr.style-six {
 
 @media (max-width: 768px) {
     blockqoute{
-        text-align: justify;
+        text-align: center;
     }
     .mission {
         width: fit-content;
