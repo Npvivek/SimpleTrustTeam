@@ -2274,7 +2274,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .foot-contact ul li {
-  display: flex;
+  /* display: flex; */
   align-items: baseline;
   margin-bottom: 15px;
 }
@@ -2321,8 +2321,7 @@ ul.tabs-nav .tab-nav.active {
     color: gray;
     margin-top: 10px;
   }
-  
-  footer a{  
+   
   footer a,img{  
     margin: auto;
   } 
